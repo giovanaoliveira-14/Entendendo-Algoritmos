@@ -43,10 +43,19 @@ print (pesquisa_binaria(minha_lista, -1)) # => None
 #    =                |        =
 # 4 bilhões de etapas |     32 etapas
 #----------------------------------------------
-# 0(n)                |       0(Log n)
+# O(n)                |       O(Log n)
 #----------------------------------------------
 
 # 100 elementos, cada elemento 1 ms, logo, 100ms na pesquisa simples
 # 100 elemento, cada elemento 1 ms, 7ms na pesquisa binária
 # 1 bilhão de elementos, cada elemento 1ms, logo, 11,57 dias na pesquisa simples
 # 1 bilhão de elementos, cada elemento 1ms, logo, 30ms na pesquisa binária
+
+# Não basta saber quanto tempo  de execução leva para ser executado - é necessário saber se o tempo de execução aumenta conforme a quantidade de dados aumenta.
+
+# Notação Big O
+
+# A notação big O informa o quão rápido é um algoritmo. 
+# O tempo de execução na notação Big O é O(n) -  A notação Big O permite que você compare o número de operações, informando assim o quão rapidamente um algoritmo cresce.
+# Qual é o tempo de execução na notação Big O para pesquisa binária? -> O(Log de N na base 2)
+# O -> "Big O" (n) -> número de operações
