@@ -59,3 +59,13 @@ print (pesquisa_binaria(minha_lista, -1)) # => None
 # O tempo de execução na notação Big O é O(n) -  A notação Big O permite que você compare o número de operações, informando assim o quão rapidamente um algoritmo cresce.
 # Qual é o tempo de execução na notação Big O para pesquisa binária? -> O(Log de N na base 2)
 # O -> "Big O" (n) -> número de operações
+
+# A notação Big O leva em consideração a pior das hipóteses
+
+# Exemplos comuns de tempo de execução Big O
+
+# O(log n): também conhecido como tempo logarítmico. Exemplo: pesquisa binária
+# O(n)> conhecido como tempo linear. Exemplo: pesquisa simples
+# O(n * log n): Exemplo-> um algoritmo rápido de ordenação, como a ordenação quicksort 
+# O(n²): Exemplo -> um algoritmo lento de ordenação, como a ordenaçã por seleção
+# O(n!): Exemplo -> um algoritmo bastante lento, como o do caixeiro viajante 
